@@ -1,7 +1,16 @@
 <form method="post" enctype="multipart/form-data">
 	<div class="box-display">
 		<h2>Arquivo a Deletar:</h2>
-		<input type="text" name="nome" placeholder="Insira o nome">
+		<input type="text" name="id" placeholder="Insira o id">
 	</div>
 	<input type="submit" name="delete" value="Deletar!">
 </form>
+<?php
+	if (isset($_POST['delete'])) {
+		$id = $_POST['id'];
+
+		$post = array('key'=>'MY_KEY');
+		Request::curl($post,'http://localhost/Web_service_1.0/deleteId/'.$id);
+	}
+	
+?>
