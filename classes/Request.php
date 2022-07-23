@@ -11,7 +11,7 @@
 			curl_close($curl);
 
 			//Mostra o JSON que retorna do servidor;
-			echo $server_output;
+			// echo $server_output;
 
 			//Retorna o JSON decodificado;
 			return json_decode($server_output);

@@ -15,6 +15,7 @@
 				<a href="<?php echo INCLUDE_PATH?>listar">LISTAR</a>
 				<a href="<?php echo INCLUDE_PATH?>listar-id">LISTAR-ID</a>
 				<a href="<?php echo INCLUDE_PATH?>deletar">DELETAR</a>
+				<a href="<?php echo INCLUDE_PATH?>info">INFO</a>
 			</div><!-- buttons -->
 
 			<div class="box-content">
