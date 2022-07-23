@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+}
+.content{
+	padding: 20px 0;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 800px;
+	height: 500px;
+}
+.buttons{
+	float: left;
+	border: 1px solid #D37E01;
+	width: 30%;
+	height: 100%;
+	background-color: #EA9532;
+}
+.buttons a{
+	border-bottom: 1px solid #D37E01;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	display: block;
+}
+.buttons a:hover{
+	background-color: #EDA24E;
+}
+.box-content{
+	float: right;
+	width: 70%;
+	overflow-y: auto;
+	height: 100%;
+	padding: 0 1%;
+	border: 1px solid #D37E01;
+	background-color: #EDA24E;
+}
+.box-display{
+	background-color: #EA9532;
+	width: 100%;
+	border: 1px solid #D37E01;
+	padding: 10px;
+	margin: 2% 0;
+}
+.box-display h2{
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+}
+.box-display input[type=text]{
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	font-weight: normal;
+	font-size: 20px;
+	padding-left: 5px;
+	height: 30px;
+	width: 100%;
+}
+.box-display input[type=file]{
+	font-weight: normal;
+	font-size: 15px;
+	height: 20px;
+	width: 100%;
+}
+.box-content input[type=submit]{
+	cursor: pointer;
+	border: 1px solid #D37E01;
+	background-color: #EA9532;
+	color: white;
+	height: 30px;
+	width: 100px;
+	font-size: 20px;
+}
