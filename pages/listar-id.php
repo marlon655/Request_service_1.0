@@ -10,7 +10,7 @@
 	if (isset($_POST['enviar'])) {
 		$id = $_POST['id'];
 		$post = array('key'=>'MY_KEY');
-		$resp = Request::curl($post,'http://localhost/Web_service_1.0/selectId/'.$id);
+		$resp = Request::curl($post, SERVER_REQ.'selectId/'.$id);
 		// $respo = json_decode($resp);
 		if($resp->message == 'success'){
 ?>

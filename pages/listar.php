@@ -1,7 +1,7 @@
 <form method="post">
 	<?php
 		$post = array('key'=>'MY_KEY');
-		$resp = Request::curl($post,"http://localhost/Web_service_1.0/selectAll");
+		$resp = Request::curl($post,SERVER_REQ.'selectAll');
 		// $respo = json_decode($resp);
 	?>
 

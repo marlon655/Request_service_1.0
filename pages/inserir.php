@@ -23,7 +23,8 @@
 
 		$post = array('key'=>'MY_KEY','name'=>$nome,'marca'=>$marca,'image'=>$imagem['name'],
 		'upload'=>$cf);
-		Request::curl($post,"http://localhost/Web_service_1.0/insert");
+		Request::curl($post, SERVER_REQ.'insert');
+		// Request::curl($post,"http://localhost/Web_service_1.0/insert");
 	}
 	
 ?>
